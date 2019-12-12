@@ -1,0 +1,17 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+int main()
+{
+    int a;
+    cin>>a;
+    setlocale(LC_ALL, " ");
+    if ((a/1000)==(a%10) && (a%1000/100)==(a%100/10))
+    {
+        cout<<"Истина";
+    }else
+    {
+        cout<<"Ложь";
+    }
+    return 0;
+}
