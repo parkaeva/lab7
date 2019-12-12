@@ -1,0 +1,17 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+int main()
+{
+    int a, b, c;
+    cin>>a>>b>>c;
+    setlocale(LC_ALL, " ");
+    if ((a+b)>c && (a+c)>b && (b+c)>a)
+    {
+        cout<<"Существует";
+    }else
+    {
+        cout<<"Не существует";
+    }
+    return 0;
+}
